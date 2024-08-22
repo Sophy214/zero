@@ -1,0 +1,39 @@
+name = ["kkh","disable","lack of all"]
+
+
+for i in name:
+    print(i)
+
+#옆으로 붙임 index slice print(:)...
+
+for n in name:
+    print(n,end=' ')
+
+#add p 
+    name.append('gsk')
+    print(name)
+    name.insert(1,"asd")
+
+#remove
+    name.remove("asd")
+
+#R/S/P
+    import random
+
+    my_choice = input ("R,S,P please choose one of them")
+    print("your choice is"+my_choice)
+
+    AI_choice=["R,S,P"]
+    AI_choice=random.choice(AI_choice)
+
+
+
+    if my_choice==AI_choice:
+        print("DRAW")
+    elif(AI_choice=="S" and my_choice=="R") or'￦':
+        (AI_choice=="R" and my_choice=="P") or'￦'
+        (AI_choice=="P" and my_choice=="S") or'￦'
+        print("YOU WIN")
+    else:
+        print("YOU WIN")
+        
